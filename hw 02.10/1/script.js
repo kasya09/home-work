@@ -50,9 +50,9 @@ resetInterval(changeSlide, timeOut)
 btnNext.onclick = () => {
     index++
     if (isLast(index)) {
-        index = 0
-        resetInterval(changeSlide, timeOut)
+        index = 0        
     }
+    resetInterval(changeSlide, timeOut)
     moveSlide(index)
 }
 
