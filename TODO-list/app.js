@@ -1,3 +1,12 @@
+/*
+* Создать приложение TODO-list для хранения списка задач:
+* Выводить список задач
+* Создавать, редактировать и удалять созданные задачи
+* Менять задачам статус (Open (default), In progress, Done)
+* Менять приоритет задач (Low, Minor, Major, High)
+* Данные по всем задачам хранить в localStorage
+*/
+
 let uuidv4 = () => ([1e7]+-1e3+-4e3+-8e3+-1e11)
     .replace(/[018]/g, c => (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16))
 
