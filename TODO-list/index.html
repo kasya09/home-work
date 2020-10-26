@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="container">
+    <div class="row">
+        <h1 class="title">Todo list</h1>
+    </div>
+</header>
+
+<section id="form-container">
+    <div class="container">
+        <div class="row">
+            <form>
+                <div class="form-row">
+
+                    <input type="text" name="id" id="id" class="id" hidden>
+
+                    <div class="form-group col-md-8">
+                        <label for="message">Create task</label>
+                        <input type="text" name="message" id="message" class="form-control">
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label for="priority">Priority</label>
+                        <select name="priority" id="priority" class="form-control">
+                            <option value="Low">Low</option>
+                            <option value="Minor">Minor</option>
+                            <option value="Major">Major</option>
+                            <option value="High">High</option>
+                        </select>
+                    </div>
+
+                    <div class="col-auto">
+                        <button class="btn btn-primary" id="btn-submit">
+                            Submit
+                        </button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="box-container">
+    <div class="container">
+        <div class="row">
+
+        </div>
+    </div>
+</section>
+
+<script src="./app.js" defer></script>
+
+</body>
+</html>

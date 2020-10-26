@@ -1,0 +1,9 @@
+
+#form-container > .container > .row > form, #box-container {
+    width: 100%;
+    margin: 15px 0;
+}
+
+#btn-submit {
+    padding: 22px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="wrapper">
+            <form action="#" name="registration">
+
+                <div class="form-child">
+                    <input type="hidden" name="userId" class="userId" id="userId">
+                </div>
+
+                <div class="form-child">
+                    <label for="name">name</label> <br>
+                    <input type="text" name="name" class="name" id="name">
+                </div>
+                <div class="form-child">
+                    <label for="surname">surname</label> <br>
+                    <input type="text" name="surname" class="surname" id="surname">
+                </div>
+                <div class="form-child">
+                    <label for="password">password</label><br>
+                    <input type="password" name="password" class="password" id="password">
+                </div>
+                <div class="form-child">
+                    <label for="age">age</label><br>
+                    <input type="number" name="age" class="age" id="age">
+                </div>
+                <div class="form-child">
+                    <label for="address">address</label><br>
+                    <textarea class="address" name="address" id="address" cols="22" rows="5"></textarea>
+                </div>
+                <div class="form-child">
+                    <input type="checkbox" name="skills" id="js" value="js">
+                    <label for="js"> JS</label><br>
+                    <input type="checkbox" name="skills" id="python" value="python">
+                    <label for="python">Python</label><br>
+                    <input type="checkbox" name="skills" id="PHP" value="PHP">
+                    <label for="PHP"> PHP</label><br>
+                </div>
+
+                <input type="submit" class="submit-btn" value="save">
+            </form>
+        </div>
+
+        <div class="container-list">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>surname</th>
+                    <th>password</th>
+                    <th>age</th>
+                    <th>address</th>
+                    <th>skills</th>
+                    <th>actions</th>
+                </tr>
+                </thead>
+                <tbody id="table-data">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #50d8d7;
+    background-image: linear-gradient(to top, #50d8d7 0%, #923993 74%);
+    height: 100vh;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0 15px;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid #fff;
+
+}
+
+.wrapper {
+    padding: 1rem 0 0 0;
+}
+
+th {
+    color: #fff;
+    padding: .5rem;
+    border-bottom: 1px solid #fff;
+}
+
+td {
+    padding: 1rem .5rem;
+    color: #fff;
+}
+
+.container-list {
+    margin: 2rem 0 4rem 0;
+}
+
+input {
+    border: none;
+    padding: .5rem;
+}
+
+.submit-btn {
+    padding: .4rem 1rem;
+    width: 175px;
+    margin: 1rem 0 0 0;
+    font-family: inherit;
+    background: #923993;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+label {
+    color: #fff;
+}
+
+.btn {
+    border: 1px solid #fff;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    padding: .2rem .5rem;
+    border-radius: 5px;
+}
+td:last-child{
+    display: flex;
+    justify-content: space-around;
+}
